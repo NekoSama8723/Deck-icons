@@ -19,7 +19,7 @@ Here are some "deck name"-"icon name" pairing:
 
 Here what it can look like, combined with the amazing [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941) by The AnKing.
 
-![example](https://picat.fr/assets/images/anki/deck-icons-example.png)
+<img src="https://picat.fr/assets/images/anki/deck-icons-example.png"/>
 
 ## Where can you find icons?
 
