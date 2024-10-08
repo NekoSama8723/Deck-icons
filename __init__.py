@@ -38,7 +38,7 @@ def addDeckIcons(deck_browser, content) -> None:
     ## ADD ICONS ##
     # extract the part related to decks' names
     DecksHTML = contentSoup.find_all("a", class_="deck")
-    # extract deck names
+    # extract decks' names
     DecksNames = [i.contents[0] for i in DecksHTML]
     
     i=0
