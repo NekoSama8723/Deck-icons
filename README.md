@@ -23,7 +23,7 @@ characters (the list might not be exhaustive): `/`, `\`, `#`, `:`.
 Here what it can look like, combined with the amazing [Custom Background Image
 and Gear Icon](https://ankiweb.net/shared/info/1210908941) by The AnKing.
 
-<img src="https://picat.fr/assets/images/anki/deck-icons-example.png"/>
+<a href="https://picat.fr/assets/images/anki/deck-icons-example.png" target="_blank">Click here for an example</a>
 
 ## Where can you find icons?
 
@@ -33,7 +33,7 @@ example above. They were made by Freepik.
 
 ## Troubleshouting
 
-Let# me know in the comments if you run into troubles.  I cannot promise I'll be
+Let me know in the comments if you run into troubles.  I cannot promise I'll be
 a good enough coder to solve them, but I'll try my best!
 
 ## Support
