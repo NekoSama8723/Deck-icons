@@ -17,6 +17,9 @@ Here are some "deck name"-"icon name" pairing:
 - "Language" and "language.png"
 - "Language::English.png" and "English.png"
 
+Your icon's name (hence your deck's name) should not contain the following
+characters (the list might not be exhaustive): `/`, `\`, `#`, `:`.
+
 ## Troubleshouting
 
 Check the addon page on AnkiWeb for updates!

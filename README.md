@@ -17,22 +17,32 @@ Here are some "deck name"-"icon name" pairing:
 - "Language" and "language.png"
 - "Language::English.png" and "English.png"
 
-Here what it can look like, combined with the amazing [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941) by The AnKing.
+Your icon's name (hence your deck's name) should not contain the following
+characters (the list might not be exhaustive): `/`, `\`, `#`, `:`.
 
-<a href="https://picat.fr/assets/images/anki/deck-icons-example.png" target="_blank">Click here for an example</a>
+Here what it can look like, combined with the amazing [Custom Background Image
+and Gear Icon](https://ankiweb.net/shared/info/1210908941) by The AnKing.
+
+<img src="https://picat.fr/assets/images/anki/deck-icons-example.png"/>
 
 ## Where can you find icons?
 
-There are plenty of them on the internet.  I love [flaticon](https://www.flaticon.com/), that's where I found the icons in the example above. They were made by Freepik.
+There are plenty of them on the internet.  I love
+[flaticon](https://www.flaticon.com/), that's where I found the icons in the
+example above. They were made by Freepik.
 
 ## Troubleshouting
 
-Let# me know in the comments if you run into troubles.  I cannot promise I'll be a good enough coder to solve them, but I'll try my best!
+Let# me know in the comments if you run into troubles.  I cannot promise I'll be
+a good enough coder to solve them, but I'll try my best!
 
 ## Support
 
-If you enjoy this addon, you can support me by buying me one coffee or more on this [website](https://buymeacoffee.com/leopicat) !
-I talk about [how I created this addon](https://picat.fr/blogging/anki/2024/05/30/deck-icons-anki.html) on my website on which you'll also find blog posts (in French) about study tips for medical school.
+If you enjoy this addon, you can support me by buying me one coffee or more on
+this [website](https://buymeacoffee.com/leopicat) ! I talk about [how I created
+this addon](https://picat.fr/blogging/anki/2024/05/30/deck-icons-anki.html) on
+my website on which you'll also find blog posts (in French) about study tips for
+medical school.
 
  <a href="https://buymeacoffee.com/leopicat" target="_blank">
   <img src="https://picat.fr/assets/images/bmc/buy-me-coffee-yellow-button.png" width="303px"/>
