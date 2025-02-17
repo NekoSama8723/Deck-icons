@@ -13,6 +13,10 @@ import bs4 as bs
 # to load css
 from typing import Any, Optional
 
+import glob
+import os
+from pathlib import Path
+
 # give access permission
 mw.addonManager.setWebExports(__name__, r'.+\.(css|png)')
 addon_package = mw.addonManager.addonFromModule(__name__)
@@ -45,6 +49,13 @@ def addDeckIcons(deck_browser, content) -> None:
     for deck in contentSoup.find_all("td", class_="decktd"):
         # create the icon adress
         iconAdress = "{}/{}.png".format(base_url_deckIcons, DecksNames[i])
+         
+        base_url_deckIcons_glob = os.path.join(os.path.dirname(os.path.realpath(__file__)), "user_files", "*.png") # "C:\Users\User\AppData\Roaming\Anki2\addons21\1519592143\user_files\*.png"
+        icons = [Path(f).stem for f in glob.glob(base_url_deckIcons_glob)] # "...user_files/english.png","...user_files/geography.png" → "english","geography"
+        for icon in icons:
+            if icon in DecksNames[i]: # "english" icon matching "english 101" deck
+                iconAdress = "{}/{}.png".format(base_url_deckIcons, icon) # "english 101.png" → "english.png"
+        
         defaultIconAdress = "{}/../default.png".format(base_url_deckIcons)
 
         # create a new cell to add next to the deck name
