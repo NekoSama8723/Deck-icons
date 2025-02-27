@@ -8,7 +8,7 @@ This add-on allows you to add icons to your decks
 3. Add icons you'd like for your decks
      - They should be in the png format.
      - They should be named as the deck you want the icon for
-4. If you don't add an icon, default.png will be used
+4. If you don't add an icon, default.png will be used (you can modify it to your liking)
 
 ## Examples
 
