@@ -31,7 +31,7 @@ There are plenty of them on the internet.  I love
 [flaticon](https://www.flaticon.com/), that's where I found the icons in the
 example above. They were made by Freepik.
 
-## Troubleshouting
+## Troubleshooting
 
 Let me know in the comments if you run into troubles.  I cannot promise I'll be
 a good enough coder to solve them, but I'll try my best!
